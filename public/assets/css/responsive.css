@@ -1,0 +1,973 @@
+@media only screen and (max-width: 1600px) {
+  .inner-path .figure_players ul {
+    justify-content: flex-start;
+    padding: 0 20px;
+  }
+  .inner-path .count-down_wrapper .count-down {
+    justify-content: center;
+    float: none !important;
+  }
+  #xp-slide-pagger {
+    display: none;
+  }
+  #registration {
+    background-position: center right;
+    padding: 50px 0 100px;
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #intro .inner-path {
+    padding: 50px 20px 20px;
+  }
+  #streamer .tab-content #tab-companies {
+    margin-bottom: 60px;
+  }
+  #faq .title {
+    background: #110e24;
+    background: linear-gradient(90deg, #110e24 0%, #0a7daf 100%);
+    padding: 30px 0;
+  }
+  #faq .title:before {
+    top: 0;
+  }
+  #LeaguesNavigations .navbar-collapse li {
+    padding: 0 30px;
+  }
+  #LeaguesContent .CountryName {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  #LeaguesContent .Headline h2.section-title {
+    float: none;
+    margin-bottom: 0!important;
+  }
+  #LeaguesContent .upcoming h2.section-title {
+    float: left;
+    margin-bottom: 30px !important;
+  }
+  #LeaguesContent .searchForm {
+    margin-left: 0 !important;
+    margin-bottom: 30px;
+  }
+  #streamer-register #streamer-right-inner {
+    width: 100% !important;
+    padding: 0 10px !important;
+  }
+  #coupon #coupon-inner {
+    background: none;
+    min-height: inherit;
+    padding-top: inherit;
+    margin-top: 50px;
+  }
+  #coupon #coupon-inner .couponContainer {
+    width: 100%;
+  }
+  #coupon #coupon-inner .mobile-coupon-bg {
+    display: block;
+  }
+  .tournament-format {
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .tournament-format .tournament-format-text {
+    max-width: 100% !important;
+  }
+  .tournament-format .tournament-format-text li {
+    width: 33%;
+    padding-right: 0 !important;
+  }
+  .tournament-format .image-shedule-content {
+    padding-left: 0 !important;
+    margin-top: 60px;
+  }
+  #works-list .titre-cont {
+    padding: 0 20px !important;
+    bottom: 10px !important;
+  }
+  #works-list .titre-cont h3 {
+    max-width: 100% !important;
+    font-size: 24px !important;
+    line-height: normal !important;
+  }
+  #works-list .titre-cont .icon {
+    margin-bottom: 10px !important;
+  }
+}
+@media only screen and (width: 992px) {
+  #registration #timeline .col-lg-6 {
+    max-width: 100% !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #intro .l2 {
+    font-size: 80px;
+    margin-bottom: 40px;
+  }
+  #intro .l1 {
+    font-size: 39px;
+  }
+  #intro ul {
+    align-items: center;
+    padding: 0;
+  }
+  #intro .count-down {
+    align-items: center;
+  }
+  #intro .inner-path {
+    padding: 50px 20px 20px;
+  }
+  #intro .inner-path .col i {
+    margin: auto;
+  }
+  #intro .inner-path .col ul li span.counter {
+    line-height: normal;
+    font-size: 80px;
+  }
+  #tornament-experience #tournament .col {
+    padding: 0 40px;
+  }
+  #tornament-experience #xp-caroussel-wrapper #xp-slide-2 {
+    margin-top: 40px;
+    padding: 0;
+  }
+  #tornament-experience #xp-caroussel-wrapper #xp-slide-2 .xp-all-content {
+    margin: auto;
+  }
+  #tornament-experience #xp-caroussel-wrapper #xp-slide-2 .xp-btn {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #tornament-experience #xp-caroussel-wrapper #xp-slide-2 .xp-btn .trapezo-button {
+    margin-right: 0;
+  }
+  #registration {
+    background-position: center bottom;
+    text-align: center;
+    padding: 50px 0;
+  }
+  #registration .tab-content {
+    margin-top: 40px;
+  }
+  #registration .registration_video_container .registration_video {
+    position: relative;
+    top: 20px;
+    left: -138px;
+  }
+  #register-cont .center-v .align-left {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #register-cont .center-v .align-center {
+    text-align: left;
+  }
+  #streamer .left-trapeze {
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  #streamer .left-trapeze img {
+    width: 100%;
+  }
+  .partners img {
+    width: 100%;
+  }
+  .partners .part-title {
+    font-size: 40px;
+  }
+  .bottom-footer .legendsLogo {
+    margin-bottom: 20px;
+  }
+  #faq .title-main .top-text {
+    font-size: 40px !important;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  #page-404 {
+    margin: 0;
+  }
+  #page-404 .bg-404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  #page-404 .content {
+    justify-content: center;
+    text-align: center;
+  }
+  .LeaguesTitle .l2 {
+    font-size: 100px !important;
+  }
+  #LeaguesNavigations {
+    margin-top: 40px;
+  }
+  #Registration_Bloc {
+    text-align: center;
+  }
+  #Registration_Bloc a.trapezo-button {
+    float: none !important;
+    margin-right: 0;
+  }
+  .Headline .ui.selection.dropdown {
+    width: 300px !important;
+  }
+  .upcoming_matches {
+    flex-direction: column;
+  }
+  .upcoming_matches > div {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .HeadScoreList,
+  .standingsList {
+    padding: 0 15px;
+  }
+  .HeadScoreList .sl,
+  .standingsList .sl {
+    min-width: 30px;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 5px;
+  }
+  .HeadScoreList .sl.sl1,
+  .standingsList .sl.sl1 {
+    margin-left: 0;
+  }
+  #register-form #team-form .form-item label {
+    width: 130px;
+  }
+  #register-form #team-form .form-item.TeamNamesForm {
+    margin-bottom: 20px;
+  }
+  #register-form #reste-form #selection > div:first-of-type {
+    margin-bottom: 20px;
+  }
+  #register-form #reste-form #selection > div:last-of-type {
+    padding: 0;
+  }
+  #register-form #reste-form .TeamFields > div {
+    margin-bottom: 10px;
+  }
+  #streamer-register #streamer-left {
+    flex-direction: column;
+    padding: 150px 20px 50px 20px;
+    min-height: inherit !important;
+  }
+  #streamer-register #streamer-left > a {
+    position: relative !important;
+    top: 0 !important;
+    left: 0!important;
+    margin-bottom: 50px;
+  }
+  #streamer-register #streamer-left #streamer-left-inner {
+    width: inherit !important;
+  }
+  #streamer-register #streamer-right {
+    flex-direction: column;
+    min-height: inherit !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #streamer-register #streamer-right a.bordered {
+    position: relative !important;
+    top: 0 !important;
+    right: 0 !important;
+    margin-bottom: 30px;
+  }
+  #streamer-register #streamer-right #streamer-right-inner {
+    text-align: center;
+  }
+  #streamer-register #streamer-right #streamer-right-inner form {
+    margin-top: 30px !important;
+    text-align: left;
+  }
+  #streamer-register #streamer-right #streamer-right-inner form .streamerButton {
+    text-align: center;
+  }
+  #promotions h1 {
+    font-size: 100px;
+    line-height: 120px;
+    margin: 0 ;
+  }
+  #coupon .couponContainer #code .align-right {
+    margin-top: 30px;
+  }
+  #works .works-item-image > img {
+    width: 100%;
+  }
+  #tab-individuals > .row {
+    flex-direction: column-reverse;
+  }
+  #tab-individuals > .row .align-left {
+    text-align: center;
+  }
+  #register-form #step-form .step-inner {
+    margin-bottom: 10px;
+  }
+  [lang="ar"] .LeaguesTitle .l2 {
+    font-size: 80px !important;
+    line-height: 1.2;
+  }
+  [lang="ar"] #streamer-register #streamer-register-inner #streamer-right #streamer-right-inner form .form-item > .row label {
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  .tournament-format .tournament-format-text li {
+    width: 30%;
+  }
+  .tournament-format .tournament-format-text li:last-child {
+    width: 40%;
+  }
+  #schedule #schedule-part-2 h1 {
+    font-size: 80px;
+  }
+  .PartnersLine .block {
+    margin-bottom: 20px;
+  }
+  .Promologos {
+    text-align: center;
+  }
+  .Promologos .title {
+    line-height: normal;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ui.selection.dropdown .menu {
+    max-height: 468px !important;
+  }
+  #intro-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+  }
+  #intro-container #intro {
+    background: none;
+    border: 1px solid #caf325;
+  }
+  #intro-container #intro:after {
+    background: none;
+  }
+  #intro-container #intro .inner-path {
+    padding: 30px 0 30px;
+  }
+  #intro-container #intro .inner-path .l2 {
+    font-size: 60px;
+  }
+  #intro-container #intro .inner-path .l1 {
+    font-size: 30px;
+  }
+  #intro-container #intro .inner-path .row {
+    flex-direction: column;
+  }
+  #intro-container #intro .inner-path .row .figure_players ul {
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+  }
+  #intro-container #intro .inner-path .row .figure_players ul li {
+    text-align: center;
+  }
+  #intro-container #intro .inner-path .row .figure_players ul li i {
+    display: inline-block;
+  }
+  #intro-container #intro .inner-path .row .figure_players ul li span {
+    font-size: 14px;
+  }
+  #intro-container #intro .inner-path .row .figure_players ul li span.counter {
+    font-size: 50px;
+    width: inherit;
+    margin-right: 15px;
+  }
+  #intro-container #intro .inner-path .row .figure_players ul li:last-child span.counter {
+    margin-right: 0;
+  }
+  #intro-container #intro .inner-path .row .count-down {
+    float: none;
+    display: block;
+    margin-top: 20px;
+  }
+  #intro-container #intro .inner-path .row .count-down .icon-count-down {
+    display: inline-block;
+  }
+  #intro-container #intro .inner-path .row .count-down ul {
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  #intro-container #intro .inner-path .row .count-down ul li.unit-block {
+    margin: 0 10px;
+  }
+  #intro-container #intro .inner-path .row .count-down ul li.unit-block .counter {
+    width: inherit;
+    font-size: 60px;
+  }
+  #intro-container #intro .inner-path .row .count-down ul li.unit-block .unit {
+    margin-right: 0;
+  }
+  #tornament-experience #tournament {
+    padding: 0 20px;
+    margin: 0;
+  }
+  #tornament-experience #tournament h2 {
+    font-size: 40px;
+  }
+  #tornament-experience #xp-caroussel-wrapper {
+    margin-top: 30px;
+  }
+  #tornament-experience #xp-caroussel-wrapper .container #xp-slide-2 {
+    margin-top: 30px;
+  }
+  #tornament-experience #xp-caroussel-wrapper .container #xp-slide-2 li .xp-all-content {
+    margin-bottom: 30px;
+  }
+  #tornament-experience #xp-caroussel-wrapper .container #xp-slide-2 li .xp-all-content .xp-text {
+    padding-right: 20px;
+  }
+  #tornament-experience #xp-caroussel-wrapper .container #xp-slide-2 li .xp-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+  #tornament-experience #xp-caroussel-wrapper .container #xp-slide-2 li .xp-btn .trapezo-button {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  #news .news-item {
+    margin-bottom: 40px;
+  }
+  #news .news-item .news-img {
+    object-fit: cover;
+  }
+  #news .news-item .news-img img {
+    width: 100%;
+  }
+  #registration {
+    padding: 50px 0;
+    background-size: 100%;
+  }
+  #faq .title-inner {
+    display: block !important;
+  }
+  #faq .title-inner .title-image {
+    float: left;
+    margin-top: 20px;
+  }
+  #faq .title-inner .title-text {
+    float: right;
+    padding: 0 30px !important;
+  }
+  #faq .title-inner .title-main {
+    clear: both;
+  }
+  .footerInsigne {
+    text-align: center;
+  }
+  header {
+    padding: 40px 70px 40px 20px;
+  }
+  .LeaguesTitle {
+    padding: 0 20px;
+  }
+  #Registration_Bloc .container > span {
+    font-size: 40px;
+    display: inline-block;
+    line-height: normal;
+  }
+  #LeaguesContent .Headline form.searchForm {
+    width: 100% ;
+    float: none ;
+  }
+  #LeaguesContent .Headline form.searchForm .form-control {
+    width: 100% !important;
+  }
+  #LeaguesContent .upcoming h2.section-title {
+    float: none;
+  }
+  #LeaguesContent .ui.selection.dropdown {
+    float: none;
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+  #coupon #coupon-inner {
+    padding-bottom: 0;
+    background: none;
+  }
+  .Imgcharacter {
+    display: block;
+  }
+  .Imgcharacter img {
+    width: 100%;
+  }
+  #thank-you {
+    min-height: inherit;
+  }
+  #thank-you .container {
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+  #thank-you .container h1 {
+    font-size: 100px !important;
+  }
+  #tab-companies,
+  #tab-individuals {
+    margin-bottom: 50px;
+  }
+  #tab-companies .ApplyNow,
+  #tab-individuals .ApplyNow {
+    text-align: center !important;
+  }
+  #register-form #step-form .step-inner .trapezo-button span img {
+    width: 70px;
+  }
+  #register-form #step-form .step-inner p {
+    font-size: 14px;
+  }
+  #registration .registration_video_container .registration_video {
+    width: 100%;
+    left: inherit;
+  }
+  #registration a .icon-cont {
+    margin-bottom: 0 !important;
+  }
+  #registration a h3 {
+    height: inherit !important;
+  }
+  #registration a h3 span {
+    display: none;
+  }
+  #registration a h3:after {
+    top: 0 !important;
+  }
+  #single-new-list h1 {
+    font-size: 36px !important;
+  }
+  #single-new-list .news-item {
+    flex-wrap: wrap;
+    margin-bottom: 100px !important;
+  }
+  #single-new-list .news-item a.prev-news {
+    position: absolute !important;
+    left: 0;
+    bottom: -70px;
+  }
+  #single-new-list .news-item a.next-news {
+    position: absolute !important;
+    right: 0;
+    bottom: -70px;
+  }
+  #single-new-list .news-item .image-container {
+    margin: 10px 0 !important;
+  }
+  #single-new-list .news-item img {
+    margin: 20px -30px;
+    max-width: calc(100% + 60px) !important;
+  }
+  .tournament-format ul {
+    flex-direction: column;
+  }
+  .tournament-format ul li {
+    width: inherit !important;
+    margin-bottom: 20px;
+  }
+  .tournament-format ul li:last-child {
+    margin-bottom: 0;
+  }
+  #schedule .Schedule .Daily-Agenda .table tr td {
+    text-align: left;
+  }
+  #schedule .Schedule .Daily-Agenda .table tr td.desc {
+    padding: 10px 30px;
+  }
+  #schedule #Registration_Bloc .container > span {
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 40px;
+  }
+}
+@media only screen and (width: 768px) {
+  #faq .title-inner {
+    display: flex !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  #registration {
+    padding: 50px 0;
+  }
+  #registration #timeline ul.nav {
+    padding: 0;
+    margin: 0;
+  }
+  #registration .icon-cont {
+    width: 65px !important;
+    height: 65px !important;
+    line-height: 55px !important;
+  }
+  #registration .icon-cont .gif {
+    width: 100%!important;
+  }
+  #lolaralia a {
+    font-size: 20px;
+  }
+  #lolaralia a img {
+    margin-left: 0;
+  }
+  #streamer .tab-heading {
+    margin: 0 0 50px 0;
+  }
+  #streamer .tab-heading li {
+    margin: 10px;
+  }
+  #register-cont .center-v .align-center {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #register-cont .center-v .align-right {
+    text-align: center;
+  }
+  #faq {
+    padding-bottom: 0;
+  }
+  #faq .title {
+    margin-bottom: 20px;
+  }
+  #faq .title .title-inner .title-text {
+    font-size: 130px !important;
+  }
+  #faq .title .title-inner .title-image {
+    margin: 0;
+  }
+  .accordion .card-body {
+    padding: 0 20px 20px 20px !important;
+    text-align: justify;
+  }
+  .partners .part-title {
+    text-align: center;
+  }
+  .bottom-footer .text-center {
+    margin-bottom: 20px;
+  }
+  #news {
+    padding: 40px 0 0;
+  }
+  #news .view-all-link {
+    margin: 0 0 40px;
+  }
+  #tornament-experience {
+    padding-bottom: 20px;
+  }
+  header .Logo {
+    background-size: 230px;
+    width: 230px;
+  }
+  .Country .flag img {
+    margin: 0 0px;
+  }
+  .Registered_Teams {
+    width: 60px !important;
+    text-align: center;
+    display: inline-block !important;
+    padding: 0 !important;
+  }
+  #team-form .TeamNamesForm,
+  #team-form .form-item {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+  #register {
+    min-height: inherit;
+    padding-bottom: 100px;
+  }
+  #register h1 {
+    font-size: 100px;
+    line-height: 120px;
+    margin: 0;
+  }
+  #foot-form {
+    flex-direction: column;
+  }
+  #foot-form label.check {
+    margin-bottom: 30px !important;
+    max-width: inherit !important;
+  }
+  [lang="ar"] #register-form .step-c {
+    font-size: 18px !important;
+    flex: inherit !important;
+    padding: 5px 10px 5px 5px !important;
+  }
+  [lang="ar"] #register-form .step-c:after {
+    border-width: 14px 0 14px 18px !important;
+  }
+  .partnerLogoContainer {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #schedule #schedule-part-2 h1 {
+    font-size: 50px !important;
+  }
+  #schedule .Schedule .Daily-Agenda .table tr td.date {
+    font-size: 18px;
+    width: 100px;
+  }
+  #schedule #Registration_Bloc .container > span {
+    font-size: 30px;
+  }
+  #retailPartnersContent .PartnersLine h2 {
+    font-size: 40px;
+  }
+  .jcarousel ul li {
+    min-height: 200px !important;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #registration {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 484px) {
+  #register-form #team-form .form-item .input-item {
+    width: 100%;
+    max-width: 100%;
+  }
+  #register-form #team-form label {
+    width: 100% !important;
+    max-width: 100%;
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #register-form #team-form .form-item .input-item {
+    max-width: 470px;
+    width: 470px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1299px) {
+  #register-form #team-form .form-item .input-item {
+    max-width: 260px;
+    width: 262px;
+  }
+  #register-form #team-form label {
+    width: 260px !important;
+    max-width: 260px;
+    display: inline-block !important;
+  }
+  [lang="ar"] #register-form #team-form label {
+    padding-right: 10px;
+  }
+}
+@media (max-width: 576px) {
+  #register-form #accept-error {
+    text-align: center;
+    position: relative;
+    top: -110px;
+  }
+  #register-form #foot-form button {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .aos-init {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+}
+/* Arabic */
+@media only screen and (max-width: 1600px) {
+  [lang="ar"] header nav a {
+    font-size: 17px !important;
+    font-weight: bold !important;
+  }
+  [lang="ar"] #registration {
+    background-position: center left;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  [lang="ar"] #faq .title {
+    background: #110e24;
+    background: linear-gradient(90deg, #0a7daf 0%, #110e24 100%);
+  }
+  [lang="ar"] #LeaguesNavigations ul a {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  [lang="ar"] #intro .inner-path .l2 {
+    font-size: 80px;
+  }
+  [lang="ar"] #intro .inner-path .figure_players li span {
+    font-size: 18px;
+  }
+  [lang="ar"] #intro .inner-path .figure_players li span.counter {
+    line-height: 80px ;
+    font-size: 50px ;
+  }
+  [lang="ar"] #intro .inner-path .figure_players li:last-child .counter {
+    margin-left: 0;
+  }
+  [lang="ar"] #intro .inner-path .count-down_wrapper li {
+    margin-left: 0;
+  }
+  [lang="ar"] #intro .inner-path .count-down_wrapper li span {
+    font-size: 18px;
+  }
+  [lang="ar"] #intro .inner-path .count-down_wrapper li span.counter {
+    line-height: 80px ;
+    font-size: 40px !important;
+    margin-left: 5px !important;
+    margin-right: 10px !important;
+  }
+  [lang="ar"] #registration .registration_video_container .registration_video {
+    right: -138px;
+    position: relative;
+  }
+  [lang="ar"] #register-cont .center-v .align-left h2 {
+    text-align: center;
+  }
+  [lang="ar"] #register-cont .center-v .align-center {
+    text-align: right;
+  }
+  [lang="ar"] #faq .title-inner .title-text {
+    font-size: 48px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  [lang="ar"] header {
+    padding: 40px 20px 40px 70px;
+  }
+  [lang="ar"] .count-down_wrapper ul#count-down-area {
+    flex-wrap: wrap;
+  }
+  [lang="ar"] .count-down_wrapper ul#count-down-area li {
+    width: calc(50% - 20px);
+  }
+  [lang="ar"] #registration .registration_video_container .registration_video {
+    right: inherit;
+    width: 100%;
+  }
+  [lang="ar"] #register-cont .center-v .align-right,
+  [lang="ar"] #register-cont .center-v .align-center {
+    text-align: center !important;
+  }
+  [lang="ar"] #faq .title-inner .title-image {
+    float: right;
+  }
+  [lang="ar"] #faq .title-inner .title-text {
+    float: left;
+    font-size: 30px !important;
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  [lang="ar"] .partners .part-title {
+    text-align: center;
+  }
+  [lang="ar"] #discord-link {
+    display: inline;
+  }
+}
+@media (min-width: 1281px) and (max-width: 1370px) {
+  header .Logo {
+    width: 258px;
+    background-size: contain;
+  }
+  nav a {
+    font-size: 24px;
+  }
+  nav ul li {
+    margin: 0 12px;
+  }
+  [lang="ar"] header nav a {
+    font-size: 16px !important;
+  }
+  [lang="ar"] header .Logo {
+    width: 238px;
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #promotions {
+    min-height: 480px;
+  }
+}
+@media (max-width: 992px) {
+  #intro-container #intro .inner-path {
+    padding: 108px 15px 30px;
+  }
+  #intro-container #intro #promo-banner {
+    position: absolute;
+    display: flex;
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #caf325;
+    right: inherit;
+    top: -1px;
+    margin-top: 0;
+    transition: ease-in-out all 0.5s;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  #intro-container #intro #promo-banner.collapsed {
+    transform: none;
+  }
+  #intro-container #intro #promo-banner.collapsed .panel-content {
+    transform: translateY(calc(-100% - 58px));
+  }
+  #intro-container #intro #promo-banner .panel-trigger {
+    width: 100%;
+    height: 58px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  #intro-container #intro #promo-banner .panel-trigger span {
+    writing-mode: horizontal-tb;
+    transform: none;
+    font-size: 32px;
+  }
+  #intro-container #intro #promo-banner .panel-trigger span [lang="ar"] {
+    text-align: right;
+  }
+  #intro-container #intro #promo-banner .panel-trigger .trigger-icon {
+    margin: 0 15px;
+    transform: rotate(-90deg);
+  }
+  #intro-container #intro #promo-banner .panel-content {
+    width: 100%;
+    max-width: 100%;
+    transition: ease-in-out all 0.5s;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  [lang="ar"] #intro-container #intro #promo-banner .panel-trigger span {
+    text-align: right;
+  }
+  [lang="ar"] #intro-container #intro #promo-banner .panel-trigger .trigger-icon {
+    margin: 0 15px;
+    transform: rotate(90deg);
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  #promo-banner {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .inner-path .figure_players ul {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="The Intel Arabian Cup is the first regional tournament experience for all League players from the Middle East and North African Region">
+        <meta name="keywords" content="IAC">
+        <meta name="author" content="Withinpixels">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="theme-color" content="#000000">
+        <meta peroperty="og:title" content="The first Regional League of Legends Tournament powered by Intel.">
+        <meta peroperty="og:description" content="The Intel Arabian Cup Registration is the first regional tournament experience for all League of Legends players from the Middle East and North African Region.">
+        <meta peroperty="og:url" content="https://iac.leagueoflegends.com/en">
+        <base href="/">
+        <!--
+          manifest.json provides metadata used when your web app is added to the
+          homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+        -->
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+        <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+
+        <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+
+        <!--        You can choose main icon from variety of the material ui icon fonts-->
+        <link href="%PUBLIC_URL%/assets/fonts/material-design-icons/MaterialIconsOutlined.css" rel="stylesheet">
+        <!--        <link href="%PUBLIC_URL%/assets/fonts/material-design-icons/MaterialIcons.css" rel="stylesheet">-->
+        <!--        <link href="%PUBLIC_URL%/assets/fonts/material-design-icons/MaterialIconsRound.css" rel="stylesheet">-->
+        <!--        <link href="%PUBLIC_URL%/assets/fonts/material-design-icons/MaterialIconsSharp.css" rel="stylesheet">-->
+        <!--        <link href="%PUBLIC_URL%/assets/fonts/material-design-icons/MaterialIconsTwoTone.css" rel="stylesheet">-->
+
+        <link href="%PUBLIC_URL%/assets/fonts/meteocons/style.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/transition.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/dropdown.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.0/css/intlTelInput.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+        <link rel="stylesheet" href="assets/css/mahandry.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;z-index: 10000000;position: absolute;}.pace-inactive{display:none}.pace .pace-progress{background:#29d;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}.pace .pace-progress-inner{display:block;position:absolute;right:0;width:100px;height:100%;box-shadow:0 0 10px #29d,0 0 5px #29d;opacity:1;-webkit-transform:rotate(3deg) translate(0,-4px);-moz-transform:rotate(3deg) translate(0,-4px);-ms-transform:rotate(3deg) translate(0,-4px);-o-transform:rotate(3deg) translate(0,-4px);transform:rotate(3deg) translate(0,-4px)}.pace .pace-activity{display:block;position:fixed;z-index:2000;top:15px;right:15px;width:14px;height:14px;border:solid 2px transparent;border-top-color:#29d;border-left-color:#29d;border-radius:10px;-webkit-animation:pace-spinner .4s linear infinite;-moz-animation:pace-spinner .4s linear infinite;-ms-animation:pace-spinner .4s linear infinite;-o-animation:pace-spinner .4s linear infinite;animation:pace-spinner .4s linear infinite}@-webkit-keyframes pace-spinner{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@-moz-keyframes pace-spinner{0%{-moz-transform:rotate(0);transform:rotate(0)}100%{-moz-transform:rotate(360deg);transform:rotate(360deg)}}@-o-keyframes pace-spinner{0%{-o-transform:rotate(0);transform:rotate(0)}100%{-o-transform:rotate(360deg);transform:rotate(360deg)}}@-ms-keyframes pace-spinner{0%{-ms-transform:rotate(0);transform:rotate(0)}100%{-ms-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes pace-spinner{0%{transform:rotate(0);transform:rotate(0)}100%{transform:rotate(360deg);transform:rotate(360deg)}} html, body {overflow-x: hidden !important;} #at-expanded-menu-bd {direction: ltr !important;} </style>
+
+        <noscript id="jss-insertion-point"></noscript>
+        <!--
+          Notice the use of %PUBLIC_URL% in the tags above.
+          It will be replaced with the URL of the `public` folder during the build.
+          Only files inside the `public` folder can be referenced from the HTML.
+
+          Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+          work correctly both with client-side routing and a non-root public URL.
+          Learn how to configure a non-root public URL by running `npm run build`.
+        -->
+        <title>The First Regional League of Legends Tournament powered by Intel.</title>
+
+        <!-- FUSE Splash Screen CSS -->
+        <style type="text/css">
+            #fuse-splash-screen {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #121212;
+                z-index: 99999;
+                pointer-events: none;
+            }
+
+            #fuse-splash-screen .center {
+                display: block;
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+
+            #fuse-splash-screen .logo {
+                width: 128px;
+                margin: 0 auto;
+            }
+
+            #fuse-splash-screen .logo img {
+                filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.2))
+            }
+
+            #fuse-splash-screen .spinner-wrapper {
+                display: block;
+                position: relative;
+                width: 100%;
+                min-height: 100px;
+                height: 100px;
+            }
+
+            #fuse-splash-screen .spinner-wrapper .spinner {
+                position: absolute;
+                overflow: hidden;
+                left: 50%;
+                margin-left: -50px;
+                animation: outer-rotate 2.91667s linear infinite;
+            }
+
+            #fuse-splash-screen .spinner-wrapper .spinner .inner {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                animation: sporadic-rotate 5.25s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+            }
+
+            #fuse-splash-screen .spinner-wrapper .spinner .inner .gap {
+                position: absolute;
+                left: 49px;
+                right: 49px;
+                top: 0;
+                bottom: 0;
+                border-top: 10px solid;
+                box-sizing: border-box;
+            }
+
+            #fuse-splash-screen .spinner-wrapper .spinner .inner .left,
+            #fuse-splash-screen .spinner-wrapper .spinner .inner .right {
+                position: absolute;
+                top: 0;
+                height: 100px;
+                width: 50px;
+                overflow: hidden;
+            }
+
+            #fuse-splash-screen .spinner-wrapper .spinner .inner .left .half-circle,
+            #fuse-splash-screen .spinner-wrapper .spinner .inner .right .half-circle {
+                position: absolute;
+                top: 0;
+                width: 100px;
+                height: 100px;
+                box-sizing: border-box;
+                border: 10px solid #61DAFB;
+                border-bottom-color: transparent;
+                border-radius: 50%;
+            }
+
+            #fuse-splash-screen .spinner-wrapper .spinner .inner .left {
+                left: 0;
+            }
+
+            #fuse-splash-screen .spinner-wrapper .spinner .inner .left .half-circle {
+                left: 0;
+                border-right-color: transparent;
+                animation: left-wobble 1.3125s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+                -webkit-animation: left-wobble 1.3125s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+            }
+
+            #fuse-splash-screen .spinner-wrapper .spinner .inner .right {
+                right: 0;
+            }
+
+            #fuse-splash-screen .spinner-wrapper .spinner .inner .right .half-circle {
+                right: 0;
+                border-left-color: transparent;
+                animation: right-wobble 1.3125s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+                -webkit-animation: right-wobble 1.3125s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+            }
+
+            @keyframes outer-rotate {
+                0% {
+                    transform: rotate(0deg) scale(0.5);
+                }
+                100% {
+                    transform: rotate(360deg) scale(0.5);
+                }
+            }
+
+            @keyframes left-wobble {
+                0%, 100% {
+                    transform: rotate(130deg);
+                }
+                50% {
+                    transform: rotate(-5deg);
+                }
+            }
+
+            @keyframes right-wobble {
+                0%, 100% {
+                    transform: rotate(-130deg);
+                }
+                50% {
+                    transform: rotate(5deg);
+                }
+            }
+
+            @keyframes sporadic-rotate {
+                12.5% {
+                    transform: rotate(135deg);
+                }
+                25% {
+                    transform: rotate(270deg);
+                }
+                37.5% {
+                    transform: rotate(405deg);
+                }
+                50% {
+                    transform: rotate(540deg);
+                }
+                62.5% {
+                    transform: rotate(675deg);
+                }
+                75% {
+                    transform: rotate(810deg);
+                }
+                87.5% {
+                    transform: rotate(945deg);
+                }
+                100% {
+                    transform: rotate(1080deg);
+                }
+            }
+        </style>
+        <!-- / FUSE Splash Screen CSS -->
+    </head>
+    <body>
+        <noscript>
+            You need to enable JavaScript to run this app.
+        </noscript>
+        <div id="root" class="flex">
+            <!-- FUSE Splash Screen -->
+            <div id="fuse-splash-screen">
+
+                <div class="center">
+
+                    <div class="logo">
+                        <img width="128" src="assets/images/logos/fuse.svg" alt="logo">
+                    </div>
+
+                    <!-- Material Design Spinner -->
+                    <div class="spinner-wrapper">
+                        <div class="spinner">
+                            <div class="inner">
+                                <div class="gap"></div>
+                                <div class="left">
+                                    <div class="half-circle"></div>
+                                </div>
+                                <div class="right">
+                                    <div class="half-circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / Material Design Spinner -->
+
+                </div>
+
+            </div>
+            
+            <!-- / FUSE Splash Screen -->
+        </div>
+        <!--
+          This HTML file is a template.
+          If you open it directly in the browser, you will see an empty page.
+
+          You can add webfonts, meta tags, or analytics to this file.
+          The build step will place the bundled scripts into the <body> tag.
+
+          To begin the development, run `npm start` or `yarn start`.
+          To create a production bundle, use `npm run build` or `yarn build`.
+        -->
+        
+    </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-countto/1.2.0/jquery.countTo.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+<script src="/assets/plugins/jQuery-Waterwheel-Carousel/js/jquery.waterwheelCarousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/transition.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/dropdown.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.0/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.0/js/utils.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.10/iframeResizer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/additional-methods.min.js"></script>
+<!-- language is ar -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/localization/messages_ar.min.js"></script>
+<!-- end -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.31/moment-timezone-with-data.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.9/jquery.jcarousel.min.js"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5ebbfd4a01e63385"></script>
+<script src="assets/js/dev.js"></script>
+<script src="assets/js/tokyonne.js"></script>
+<script src="assets/js/rafilo.js"></script>
+<!-- <?php if (!isset($hide_riot_bar)) : ?> -->
+    <script>
+        window.riotBarConfig = {
+            mobileResponsive: true
+        };
+    </script>
+    <script async src="https://lolstatic-a.akamaihd.net/riotbar/prod/latest/en_GB.js"></script>
+<!-- <?php endif; ?> -->
+
+<style>
+    [lang="ar"] #riotbar-bar-wrapper * {
+        direction: ltr !important;
+    }
+</style>
+</html>

@@ -1,0 +1,297 @@
+#cover-countryLeagues{
+	background: url("../img/bg-country.jpg") no-repeat;
+	background-size: cover;
+	padding-bottom: 24px;
+}
+#cover-proLeagues{
+	background: url("../img/Cover-Pro-League.jpg") no-repeat;
+	background-size: cover;
+	padding-bottom: 24px;
+}
+#cover-amateurLeagues{
+	background: url("../img/Cover-Leagues.jpg") no-repeat;
+	background-size: cover;
+	padding-bottom: 24px;
+}
+.LeaguesTitle{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.LeaguesTitle p{
+	max-width: 570px;
+	margin: auto;
+}
+.LeaguesTitle .l1 {
+	color: #caf325;
+	font-size: 30px;
+	line-height: 1;
+	font-family: 'intel_clearregular', sans-serif;
+	margin-top: 30px;
+}
+
+.LeaguesTitle .l2 {
+	font-family: 'intel_clear_probold', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 180px;
+	line-height: 0.85;
+	margin-bottom: 20px;
+}
+
+#LeaguesNavigations ul{
+	margin: 65px 0 0 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+#LeaguesNavigations ul li{
+	padding: 0 50px;
+	margin: 0;
+}
+#LeaguesNavigations ul a{
+	font-family: 'intel_clear_probold', sans-serif;
+	font-size: 48px;
+	color: #fff;
+	text-transform: uppercase;
+	padding:0 0 15px 0;
+	line-height: normal !important;
+}
+#LeaguesNavigations ul.navbar-nav>li.active>a, #LeaguesNavigations ul.navbar-nav>li>a:hover, #LeaguesNavigations ul.navbar-nav>li>a:focus{
+	color: #caf325;
+	border-bottom: 9px solid;
+}
+#LeaguesContent .container{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.Country, .CLBar, .HeadScoreList{
+	background: #f0f0f0;
+	display: flex;
+	margin-bottom: 18px;
+	align-items: center;
+}
+.HeadScoreList{
+	background: none;
+}
+.CountryName{
+	font-size: 24px;
+	font-family: 'intel_clearbold', sans-serif;
+}
+.Country .flag img{
+	width: 100px;
+	height: 60px;
+	margin: 0 10px 0 0;
+}
+.Registered_Teams{
+	background: #080427;
+	margin-left: auto;
+	display: flex;
+	color: #fff;
+	font-size: 14px;
+	padding: 0 10px 0 25px;
+	width: 160px;
+	line-height: 18px;
+	align-items: center;
+}
+.TeamsNames{
+	width: 110px;
+	padding: 0;
+	text-align: center;
+	display: inline;
+}
+.Registered_Teams span{
+	line-height: 14px;
+	margin-left: auto;
+	width: 75px;
+}
+.Effective_Team{
+	font-family: 'intel_clear_probold', sans-serif;
+	text-transform: uppercase;
+	font-size: 48px;
+	line-height: 60px;
+}
+
+@media (max-width: 450px) {
+	.Effective_Team {
+		font-size: 38px;
+	}
+}
+
+.sharethis-inline-share-buttons {
+	margin-bottom: 30px;
+}
+
+#LeaguesContent h2.section-title{
+	margin-bottom: 40px;
+}
+.Headline h2.section-title{
+	float: left;
+}
+.blocLeague{
+	padding-left: 9px;
+	padding-right: 9px;
+}
+#Registration_Bloc{
+	background: #caf325;
+	font-size: 60px;
+	font-family: 'intel_clear_probold', sans-serif;
+	text-transform: uppercase;
+	padding: 30px 0;
+}
+#Registration_Bloc .trapezo-button{
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+#Registration_Bloc .trapezo-button span{
+	border: 1px solid #fff;
+}
+#Registration_Bloc .trapezo-button.black span{
+	line-height: 2.3;
+}
+
+#LeaguesContent .form-control{
+	border-bottom: 1px solid #080427;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-radius: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 16px 0 16px 35px;
+	letter-spacing: 1px;
+	margin-left: -22px !important;
+}
+
+#LeaguesContent .Headline form.searchForm{
+	width: 290px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 35px;
+}
+.searchIcon{
+	background: url("../img/search-icon.jpg") no-repeat;
+	background-size: 20px 20px;
+	width: 22px;
+	height: 22px;
+	left: 0;
+	top: 5px;
+	position: relative;
+}
+.LoadMore_Container{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+.LoadMore{
+	text-transform: uppercase;
+	color: #0b0438 !important;
+	letter-spacing: 1px;
+	background: url("../img/load-more.svg") no-repeat right;
+	padding: 10px 20px 10px 10px;
+}
+
+
+.MatchesDate, .MatchesRound, .WandL{
+	font-family: 'intel_clearbold', sans-serif;
+	font-size: 14px;
+	margin: 0 40px 0 0;
+}
+.MatchesDate .MatchesTime, .MatchesRound .MatchesCountry{
+	display: block;
+	font-family: 'intel_clearregular', sans-serif;
+	line-height: 16px;
+}
+.MatchesOpponents{
+	font-family: 'intel_clearbold', sans-serif;
+	font-size: 24px;
+	margin: 0 40px 0 0;
+	line-height: 24px;
+}
+.MatchesOpponents span{
+	font-family: 'intel_clearregular', sans-serif;
+	font-size: 16px;
+}
+.LiveBadge{
+	font-size: 12px;
+	text-transform: uppercase;
+	background: url("../img/live.png") no-repeat right;
+	padding: 0 21px 0px 0;
+	margin-left: auto;
+}
+.StreamLink{
+	margin: 0 30px 0 40px
+}
+.StreamLink a{
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #08062a;
+	background: url("../img/stream-link.png") no-repeat right;
+	padding: 2px 28px 0px 0;
+}
+.WandL, .Score{
+	font-family: 'intel_clearbold', sans-serif;
+	font-size: 24px;
+	margin-left: auto;
+	margin-right: 30px;
+}
+.WandL{
+	margin-right: 0;
+}
+.WandL .w, .Score .w{
+	color: #00d049;
+}
+.WandL .l, .Score .l{
+	color: #e90828;
+}
+.WandL .f, .Score .f{
+	color: #ff7700;
+}
+.HeadScoreList .sl, .standingsList .sl{
+	padding: 15px 0;
+	min-width: 70px;
+	font-size: 18px;
+}
+.standingsList .sl2{
+	font-family: 'intel_clearbold', sans-serif;
+	font-size: 24px;
+	padding: 9px 0;
+}
+.HeadScoreList .sl3, .standingsList .sl3{
+	margin-left: auto;
+}
+.HeadScoreList .sl1, .standingsList .sl1{
+	margin-left:30px;
+}
+.standingsList .sl9{
+	font-family: 'intel_clearbold', sans-serif;
+}
+.MatchesRound{
+	min-width: 200px;
+}
+.Headline .ui.selection.dropdown{
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #000;
+	box-shadow: none !important;
+	float: right;
+	width: 500px;
+	margin-top: 8px;
+}
+.Headline .ui.default.dropdown:not(.button) > .text, .Headline  .ui.dropdown:not(.button) > .default.text, .Headline .ui.dropdown > .text {
+	color: #0b0438;
+	font-size: 24px;
+	font-family: 'intel_clearbold', sans-serif;
+	text-transform: uppercase;
+}
+.Headline .ui.dropdown > .dropdown.icon:before {
+	content: '';
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-bottom: 2px solid #000;
+	border-right: 2px solid #000;
+	transform: rotate(45deg);
+}
